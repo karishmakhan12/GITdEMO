@@ -1,0 +1,9 @@
+package programme.interfac.copy;
+
+public class AutralianTrafic implements CentralTraffic {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

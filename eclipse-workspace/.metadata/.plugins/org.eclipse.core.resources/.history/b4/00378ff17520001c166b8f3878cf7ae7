@@ -1,0 +1,30 @@
+package programme.palendrom;
+
+public class Run {
+
+	/*
+	 * public static void main(String[] args) { int a=1331; int num=0; int t=0;
+	 * Palendrom palen=new Palendrom(); boolean z=palen.checkpalen(num,a,t);
+	 * 
+	 * }
+	 */
+	public static void main(String args[]){  
+		  int r;
+		  int num=0;
+		  int temp;    
+		  int n=1531;
+		  
+		  temp=n;    
+		  while(n>0){    
+		   r=n%10; 
+		   num=(num*10)+r;    
+		   n=n/10;    
+		  }    
+		  if(temp==num)    
+		   System.out.println("palindrome number ");    
+		  else    
+		   System.out.println("not palindrome");    
+		}  
+		}  
+
+

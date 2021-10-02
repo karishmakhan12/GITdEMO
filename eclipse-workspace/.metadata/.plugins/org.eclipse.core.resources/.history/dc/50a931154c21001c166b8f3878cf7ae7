@@ -1,0 +1,14 @@
+
+public class PracticeOfArray {
+
+	public static void main(String[] args) {
+		//MINIMUM NUMBER.
+		int a [][]= {{2,4,5,},{3,4,7},{1,2,9}};
+		for(0i=0;i<3;i++) {
+			for(int j=0;j<3;j++) {
+				
+			}
+		}
+	}
+
+}

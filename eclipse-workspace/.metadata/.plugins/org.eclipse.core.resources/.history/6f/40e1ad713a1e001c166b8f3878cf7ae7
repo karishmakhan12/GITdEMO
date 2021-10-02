@@ -1,0 +1,9 @@
+package programme.prime;
+
+public class Prime {
+        int num;
+        int i;
+	public  void checkPrime() {
+
+
+}

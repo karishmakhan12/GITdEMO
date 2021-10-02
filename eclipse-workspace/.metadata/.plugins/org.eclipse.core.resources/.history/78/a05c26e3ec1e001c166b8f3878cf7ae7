@@ -1,0 +1,21 @@
+package programme.prime;
+
+import programme.calculator.Addition;
+
+public class Run {
+	 
+	public static void main(String[] args) {
+		int num;
+	     int i;
+	Prime Primenum =new Prime();
+	int z =Primenum.checkPrime(num,i);
+
+	}
+
+}
+Addition add=new Addition();
+int z = add.addNum(x,y,operator);
+
+//output
+System.out.println("Result  : "+ z);
+scan.close();

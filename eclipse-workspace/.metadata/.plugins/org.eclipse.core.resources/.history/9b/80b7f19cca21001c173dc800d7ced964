@@ -1,0 +1,11 @@
+
+public class Construster {
+	public Construct(){
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

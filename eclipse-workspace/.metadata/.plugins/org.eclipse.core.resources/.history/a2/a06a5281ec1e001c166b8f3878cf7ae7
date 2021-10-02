@@ -1,0 +1,13 @@
+package programme.prime;
+
+public class Run {
+	 int num;
+     int i;
+	public static void main(String[] args) {
+		 
+	Prime Primenum =new Prime();
+	Primenum.checkPrime();
+
+	}
+
+}

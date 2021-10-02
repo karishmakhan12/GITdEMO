@@ -1,0 +1,19 @@
+package programme.palendrom;
+
+public class Palendrom {
+	public  boolean checkpalen(int a, int num) {
+		
+		while(a>0) {
+			int rem;
+			rem =a%10;
+			num=(num*10)+rem;
+			a=a/10;
+					
+		}
+		return true;
+	}
+
+
+	}
+	
+

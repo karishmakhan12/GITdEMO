@@ -1,0 +1,11 @@
+import java.sql.DriverManager;
+
+public class jdbcconnection {
+
+	public static void main(String[] args) {
+		string host="localhost";
+		string port="3306";
+DriverManager.getConnection("jdbc:mysql://"+localhost+3306+"demo");
+	}
+
+}

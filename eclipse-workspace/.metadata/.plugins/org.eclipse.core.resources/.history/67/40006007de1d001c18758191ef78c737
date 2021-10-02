@@ -1,0 +1,32 @@
+package programme;
+
+/*public class factorial{  
+			 public static void main(String args[]){  
+			  int i,x=1;  
+			  int number=4;
+			  for(i=1;i<=number;i++){    
+			      x=x*i;    
+			  }    
+			  System.out.println("Factorial of "+number+" is: "+x);    
+			 }  
+			}  */
+public class factorial{
+ public static void main(String[] args)  {
+		factorial fact  = new factorial();
+		fact.facto();
+	}
+ private void facto() {
+	 public static void main(String args[]){  
+		  int i,x=1;  
+		  int number=4;
+		  for(i=1;i<=number;i++){    
+		      x=x*i;    
+		  }    
+		  System.out.println("Factorial of "+number+" is: "+x);    
+		 }  
+		}  
+ }
+}
+ 
+
+

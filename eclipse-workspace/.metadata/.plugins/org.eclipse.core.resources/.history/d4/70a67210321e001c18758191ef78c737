@@ -1,0 +1,10 @@
+package programme.evenodd;
+
+public class evenNOdd {
+	public void eNOd() {
+		
+	}
+
+	
+
+}

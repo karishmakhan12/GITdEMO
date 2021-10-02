@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="26" started-at="2021-09-10T15:26:22Z" finished-at="2021-09-10T15:26:22Z">
+    <groups>
+    </groups>
+    <test name="Car Loan" duration-ms="26" started-at="2021-09-10T15:26:22Z" finished-at="2021-09-10T15:26:22Z">
+      <class name="Test.Day3">
+        <test-method status="PASS" signature="beforeeveryclass()[pri:0, instance:Test.Day3@45018215]" name="beforeeveryclass" is-config="true" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeveryclass -->
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:Test.Day3@45018215]" name="LoginAPICarLoan" duration-ms="4" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:Test.Day3@45018215]" name="beforeevery" is-config="true" duration-ms="0" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:Test.Day3@45018215]" name="afterevery" is-config="true" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:Test.Day3@45018215]" name="beforeevery" is-config="true" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="WebloginCarLoan(java.lang.String)[pri:0, instance:Test.Day3@45018215]" name="WebloginCarLoan" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qalickaacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:Test.Day3@45018215]" name="afterevery" is-config="true" duration-ms="0" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="aftereveryclass()[pri:0, instance:Test.Day3@45018215]" name="aftereveryclass" is-config="true" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereveryclass -->
+      </class> <!-- Test.Day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Home Loan" duration-ms="24" started-at="2021-09-10T15:26:22Z" finished-at="2021-09-10T15:26:22Z">
+      <class name="Test.Day3">
+        <test-method status="PASS" signature="BFsuite()[pri:0, instance:Test.Day3@45018215]" name="BFsuite" is-config="true" duration-ms="8" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BFsuite -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Day1">
+        <test-method status="PASS" signature="AFsuite()[pri:0, instance:Test.Day1@1d76aeea]" name="AFsuite" is-config="true" duration-ms="0" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFsuite -->
+      </class> <!-- Test.Day1 -->
+      <class name="Test.Day4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:Test.Day4@2f177a4b]" name="LoginAPIHomeLoan" duration-ms="5" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:Test.Day4@2f177a4b]" name="MobileLoginHomeLoan" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan()[pri:0, instance:Test.Day4@2f177a4b]" name="WebloginHomeLoan" duration-ms="1" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- Test.Day4 -->
+    </test> <!-- Home Loan -->
+    <test name="Personal loan" duration-ms="26" started-at="2021-09-10T15:26:22Z" finished-at="2021-09-10T15:26:22Z">
+      <class name="Test.Day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:Test.Day2@4c15e7fd]" name="prerequiste" is-config="true" duration-ms="0" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="day2()[pri:0, instance:Test.Day2@4c15e7fd]" name="day2" duration-ms="2" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2 -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day1">
+        <test-method status="FAIL" signature="Demo()[pri:0, instance:Test.Day1@1d76aeea]" name="Demo" duration-ms="9" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Test.Day1.Demo(Day1.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:Test.Day1@1d76aeea]" name="lastexecution" is-config="true" duration-ms="0" started-at="2021-09-10T20:56:22Z" finished-at="2021-09-10T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Test.Day1 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

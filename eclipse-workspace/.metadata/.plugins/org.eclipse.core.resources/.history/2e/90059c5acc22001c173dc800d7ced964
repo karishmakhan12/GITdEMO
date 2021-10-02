@@ -1,0 +1,9 @@
+import java.util.HashMap;
+
+public class HasMapExample {
+
+	public static void main(String[] args) {
+           HashMap<Integer, String> hm = new HashMap<Integer, String>();
+	}
+
+}

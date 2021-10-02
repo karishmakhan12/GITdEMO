@@ -1,0 +1,17 @@
+package programme.calculator;
+
+public class AdditionMain {
+
+	public static void main(String[] args) {
+		//input
+		int x=2;
+		int y=3;
+		String operator;
+		//logic
+		Addition add=new Addition();
+		int z = add.addNum(x,y);
+		
+		//output
+		System.out.println("addition : "+ z);
+	}
+}

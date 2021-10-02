@@ -1,0 +1,24 @@
+package programme.reverse;
+
+public class ForLoop2 {
+
+	public static void main(String[] args) {
+		/*OUTPUT-2
+		 * 1                                           QUESTION 2
+		 * 12
+		 * 123
+		 * 1234
+		 */
+		for(int i=0;i<=4;i++) {
+			int k=1;
+			for(int j=i;j<=4;j++) {
+				System.out.println(k);
+				k++;
+			}
+			
+		}
+
+
+	}
+
+}

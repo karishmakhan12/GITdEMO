@@ -1,0 +1,17 @@
+package programme.prime;
+
+public class Prime {
+        int num;
+        int i;
+	public  void checkPrime() {
+for (i=1;i<num;i++) {
+	while (num%i==2) {
+		System.out.println("the no. is prime");
+	}
+	else {
+		System.out.println("the no. is not prime");
+	}
+}
+
+}
+}

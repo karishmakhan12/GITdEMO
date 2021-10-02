@@ -1,0 +1,10 @@
+package programme.abstractc;
+
+public class ParentAirCraft {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

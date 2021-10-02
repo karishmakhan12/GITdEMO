@@ -1,0 +1,15 @@
+import java.util.HashSet;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		HashSet<String> hs = new HashSet<String>();
+         hs.add("delhi");
+         hs.add("pune");
+         hs.add("mumbai");
+         hs.add("Delhi");
+         hs.add("Bangalore");
+         System.out.println(hs);
+	}
+
+}

@@ -1,0 +1,12 @@
+package programme.calculator;
+
+public class Addition {
+
+	public <string> int addNum(int x, int y, operator) {
+		if (operator="add") {
+		int z=x+y;
+		return z;
+	}
+	
+}
+}

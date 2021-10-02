@@ -1,0 +1,8 @@
+
+public class Superchild extends SuperParent {
+
+	public static void main(String[] args) {
+
+	}
+
+}

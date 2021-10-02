@@ -1,0 +1,16 @@
+package programme.abstractc;
+
+public class ChildIndigo extends ParentAirCraft{
+
+	public static void main(String[] args) {
+		ChildIndigo c=new ChildIndigo();
+
+	}
+
+	@Override
+	public void bodycolor() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

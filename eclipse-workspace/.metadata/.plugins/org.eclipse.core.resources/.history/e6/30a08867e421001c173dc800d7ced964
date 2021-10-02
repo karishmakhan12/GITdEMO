@@ -1,0 +1,14 @@
+
+public class thisDemo {
+	int a = 3;
+	public  void getData() {
+		int a=4;
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		thisDemo td = new thisDemo();
+		td.getData();
+	}
+
+}

@@ -1,0 +1,22 @@
+package programme.calculator;
+
+public class Addition {
+	int z;
+	public int addNum(int a, int b,String operator) {
+		
+		if (operator.equalsIgnoreCase("add")) {
+			z= a+b;
+		}
+		else if(operator.equalsIgnoreCase("subtract")) {
+			z=a-b;
+		}
+		else if (operator.equalsIgnoreCase("multiply")) {
+			z=a*b;
+		}
+		else if (operator.equalsIgnoreCase("divide")) {
+			z=a%b;
+		}
+		return  z;
+		
+	}
+}

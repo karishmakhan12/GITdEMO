@@ -1,0 +1,11 @@
+package programme.abstractc;
+
+public class ParentAirCraft {
+
+public void engine() {
+	System.out.println(" engine guidlines");
+}
+public void safetyguidline() {
+	System.out.println("safetyguidline");
+}
+}

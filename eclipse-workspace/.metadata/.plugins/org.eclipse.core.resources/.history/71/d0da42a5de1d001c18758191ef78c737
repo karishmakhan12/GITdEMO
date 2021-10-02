@@ -1,0 +1,7 @@
+package programme;
+
+public class run {
+	public static void main(String[] args) {
+	fact.facto();
+}
+}

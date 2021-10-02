@@ -1,0 +1,13 @@
+
+public class Superchild extends SuperParent {
+	String name = "Rahulshetty";
+
+	public void getdata() {
+
+	}
+
+	public static void main(String[] args) {
+		Superchild sc = new Superchild();
+	}
+
+}

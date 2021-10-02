@@ -1,0 +1,12 @@
+
+public class thisDemo {
+	int a = 3;
+	public  void getData() {
+		int a=4;
+		System.out.println();
+	}
+
+	public static void main(String[] args) {
+	}
+
+}

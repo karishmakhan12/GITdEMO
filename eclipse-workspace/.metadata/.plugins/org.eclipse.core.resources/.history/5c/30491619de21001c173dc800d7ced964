@@ -1,0 +1,14 @@
+
+public class Construct {
+	public Construct(){
+		System.out.println("i am the only one constructor");
+		System.out.println("not a return type");
+	}
+public void getData() {
+	System.out.println("i am return type");
+}
+	public static void main(String[] args) {
+Construct cd = new Construct();
+	}
+
+}

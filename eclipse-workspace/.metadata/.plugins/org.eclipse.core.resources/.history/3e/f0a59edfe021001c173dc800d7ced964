@@ -1,0 +1,15 @@
+
+public class Superchild extends Superparent {
+	String name = "Rahulshetty";
+
+	public void getStringdata() {
+		System.out.println(name);
+	}
+
+	public static void main(String[] args) {
+		Superchild sc = new Superchild();
+		sc.getStringdata();
+		sc.Superparent();
+	}
+
+}

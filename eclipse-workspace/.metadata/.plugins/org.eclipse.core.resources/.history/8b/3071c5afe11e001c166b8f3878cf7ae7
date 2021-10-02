@@ -1,0 +1,12 @@
+package programme.calculator;
+
+public class Addition {
+
+	public int addNum(int a, int b, String operator) {
+		if (operator.equalsIgnoreCase("add")) {
+			int z= a+b;
+			return z;
+		}
+	
+	}
+}

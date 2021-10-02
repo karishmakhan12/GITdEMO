@@ -1,0 +1,8 @@
+package programme.calculator;
+
+public class Addition {
+
+	public int addNum(int a, int b, String operator) {
+		
+	}
+}

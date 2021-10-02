@@ -1,0 +1,25 @@
+package programme.palendrom;
+
+public class Palendrom {
+	public boolean checkpalen(int a, int num,int t) {
+        t = num;
+		while (a > 0) {
+			int r;
+			r = a % 10;
+			num = (num * 10) + r;
+			a = a / 10;
+			
+		}
+
+		if (t==num) {
+		System.out.println("the no. is palendrom");
+		}
+		else {
+			System.out.println("no. is not. palendrom");
+		}
+		return true;
+		}
+	}
+
+	
+

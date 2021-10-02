@@ -1,0 +1,20 @@
+package programme.calculator;
+
+public class Calculator {
+
+	public  void calc() {
+		int num1;
+		int num2;
+		char z;
+		String operator;
+		if (operator.equalsIgnoreCase("add")) {
+		z=num1+num2;
+			System.out.println("the addition of no. is" + z);
+		}
+		
+		
+		
+		
+	}
+
+}

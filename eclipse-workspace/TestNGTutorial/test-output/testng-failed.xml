@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]" parallel="tests">
+  <parameter name="URL" value="qalickaacademy.com"/>
+  <listeners>
+    <listener class-name="Test.Listeners"/>
+  </listeners>
+  <test name="Personal loan(failed)" parallel="tests">
+    <classes>
+      <class name="Test.Day1">
+        <methods>
+          <include name="Demo"/>
+          <include name="AFsuite"/>
+          <include name="lastexecution"/>
+        </methods>
+      </class> <!-- Test.Day1 -->
+      <class name="Test.Day2">
+        <methods>
+          <include name="prerequiste"/>
+        </methods>
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day3">
+        <methods>
+          <include name="beforeevery"/>
+          <include name="BFsuite"/>
+          <include name="aftereveryclass"/>
+          <include name="afterevery"/>
+          <include name="beforeeveryclass"/>
+        </methods>
+      </class> <!-- Test.Day3 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

@@ -1,0 +1,10 @@
+package programme.abstractc;
+
+public class ChildIndigo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

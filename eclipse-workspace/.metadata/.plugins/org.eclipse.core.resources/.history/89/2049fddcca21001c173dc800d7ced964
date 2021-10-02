@@ -1,0 +1,12 @@
+
+public class Construct {
+	public Construct(){
+		System.out.println("i am the only one constructor");
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

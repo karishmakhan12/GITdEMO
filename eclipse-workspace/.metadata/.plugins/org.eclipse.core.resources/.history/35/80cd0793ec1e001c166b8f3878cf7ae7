@@ -1,0 +1,18 @@
+package programme.prime;
+
+public class Prime {
+        int num;
+        int i;
+	public  void checkPrime() {
+		
+		 for(i=1;i<=2;i++) {
+			 if(i>2) {
+				 System.out.println("the given no. is not prime");
+			 }
+			 else{
+				 System.out.println("the given no. is prime");
+			 }
+		 }
+		
+}
+}

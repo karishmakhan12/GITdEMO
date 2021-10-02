@@ -1,0 +1,12 @@
+package programme.forloop;
+
+public class ForLoop4 {
+
+	public static void main(String[] args) {
+		/*
+		 * OUTPUT 3 QUESTION 4 6 9 12 15 18
+		 */
+
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class thisDemo {
+	public getData() {
+		
+	}
+
+	public static void main(String[] args) {
+	}
+
+}

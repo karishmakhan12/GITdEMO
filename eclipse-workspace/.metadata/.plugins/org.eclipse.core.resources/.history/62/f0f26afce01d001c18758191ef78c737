@@ -1,0 +1,13 @@
+package programme.evenodd;
+
+import programme.factorial.factorial;
+
+public class run {
+
+	public static void main(String[] args) {
+		evenNOdd eNO  = new evenNOdd();
+		eNO.eNOd();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.text.SimpleDateFormat;
+
+public class Calendar {
+
+	public static void main(String[] args) {
+	java.util.Calendar cal=java.util.Calendar.getInstance();
+	SimpleDateFormat sd = new SimpleDateFormat("M/d/yyyy hh:mm:ss");
+	  
+ System.out.println();( sd.format(cal.getTime()));
+                 
+}
+}

@@ -1,0 +1,12 @@
+
+public class Superchild extends SuperParent {
+	public void getdata() {
+		
+	}
+	
+
+	public static void main(String[] args) {
+
+	}
+
+}

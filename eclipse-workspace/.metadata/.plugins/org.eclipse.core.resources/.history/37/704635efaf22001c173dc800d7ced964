@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> a = new ArrayList<String>();
+		a.add("rahul");
+		a.add("java");
+
+		a.add(0, "student");
+		System.out.println(a);
+		//a.remove(1); 
+	}
+
+}

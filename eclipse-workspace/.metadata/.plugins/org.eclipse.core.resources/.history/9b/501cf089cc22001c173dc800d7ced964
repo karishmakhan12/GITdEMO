@@ -1,0 +1,15 @@
+import java.util.HashMap;
+
+public class HasMapExample {
+
+	public static void main(String[] args) {
+           HashMap<Integer, String> hm = new HashMap<Integer, String>();
+           hm.put(0, "hi");;
+           hm.put(1, "karishma");
+           hm.put(2, "how's");
+           hm.put(3, "u");
+           hm.get(2);
+           
+	}
+
+}

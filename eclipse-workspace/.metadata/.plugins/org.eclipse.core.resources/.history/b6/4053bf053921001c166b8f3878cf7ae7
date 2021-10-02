@@ -1,0 +1,27 @@
+package programme.interfac.copy;
+
+public class AutralianTrafic implements CentralTraffic {
+
+	public static void main(String[] args) {
+		AutralianTrafic a = new AutralianTrafic();
+	}
+
+	@Override
+	public void greenGo() {
+		
+		System.out.println("greengo implementation");
+	}
+
+	@Override
+	public void redStop() {
+		System.out.println("redstop implementation");
+
+	}
+
+	@Override
+	public void flashYellow() {
+		System.out.println("flashyellow implementation");
+
+	}
+
+}

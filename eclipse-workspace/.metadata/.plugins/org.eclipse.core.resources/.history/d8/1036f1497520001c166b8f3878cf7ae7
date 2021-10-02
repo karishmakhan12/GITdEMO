@@ -1,0 +1,14 @@
+package programme.palendrom;
+
+public class Run {
+
+	public static void main(String[] args) {
+		int a=1331;
+	     int num=0;
+	     int t,r;
+		Palendrom palen=new Palendrom();
+		boolean z=palen.checkpalen(num,a,t);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package programme.calculator;
+
+import java.util.Scanner;
+
+public class AdditionMain {
+
+	public static void main(String[] args) {
+		//input
+		Scanner scan =new Scanner(System.in);
+		int x=2;
+		int y=3;
+		String operator="multiply"; 
+		
+		//logic
+		Addition add=new Addition();
+		int z = add.addNum(x,y,operator);
+		
+		//output
+		System.out.println("Result  : "+ z);
+	}
+}

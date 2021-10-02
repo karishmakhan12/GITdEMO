@@ -1,0 +1,17 @@
+package programme.calculator;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		int x=2;
+		int y=3;
+		Addition add=new Addition();
+		int z = add.addNum(x,y);
+		System.out.println("addition : "+ z);
+	
+	}
+	private int addNum(int x, int y) {
+		int z=x+y;
+		return z;
+	}
+}
